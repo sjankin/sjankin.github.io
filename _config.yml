@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Slava"
+title                    : "Slava Jankin Mikhaylov"
 title_separator          : "-"
 name                     : &name "Slava Jankin Mikhaylov"
 description              : &description "CSA to ECC"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Slava Jankin Mikhaylov"
   avatar           : "profile.png"
-  bio              : "Professor of Public Policy and Data Sciene at University of Essex"
+  bio              : "Professor of Public Policy and Data Sciene at the University of Essex Institute for Analytics and Data Science"
   location         : "Colchester, UK"
   employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=DUorn6wAAAAJ&hl=en"
