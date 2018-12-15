@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+My most recent CV is available to download [here](/files/CV.pdf "Editing a markdown file for a talk")
+
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
