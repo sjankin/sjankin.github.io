@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Slava Jankin Mikhaylov"
+title                    : "Slava Jankin"
 title_separator          : "-"
-name                     : &name "Slava Jankin Mikhaylov"
+name                     : &name "Slava Jankin"
 description              : &description "CSA to ECC"
 url                      : https://sjankin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
