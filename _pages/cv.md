@@ -13,16 +13,17 @@ CV is available to download [here](/files/CV.pdf "Slava Jankin CV")
 
 Work experience
 ======
-* Hertie School of Governance, Berlin, Germany: 2019 - 
+* Hertie School of Governance, Berlin, Germany: 2019- 
   * Data Science Lab, Director
   * Professor of Data Science and Public Policy
 
-* Institute for Analytics and Data Science, University of Essex, United Kingdom: 2017 - 2019
+* Institute for Analytics and Data Science, University of Essex, United Kingdom: 2017-2019
   * Chief Scientific Adviser to Essex County Council 
   * Professor of Public Policy and Data Science
 
-* Department of Political Science, School of Public Policy, University College London: 2010 - 2017
-  *  Associate Professor, 2014-2017; Assistant Professor, 2010 - 2014  
+* Department of Political Science, School of Public Policy, University College London: 2010-2017
+  * Associate Professor, 2014-2017
+  * Assistant Professor, 2010-2014  
 
 * Department of Government, London School of Economics: 2009-2010
   * Postdoctoral Teaching Fellow, MPA Programme
@@ -39,7 +40,9 @@ Work experience
 
 Education
 ======
-* Department of Political Science, Trinity College Dublin - PhD, 2009.
+* Trinity College, University of Dublin
+  * PhD, Department of Political Science, 2009
+  * Postgraduate Diploma in Statistics (Dip.Stat), Department of Statistics, 2006
 
 * J.W. Goethe University, Frankfurt am Main, Germany, Business Administration (Betriebswirtschaftslehre), 2001-2003.
 
