@@ -7,36 +7,48 @@ redirect_from:
   - /resume
 ---
 
-My most recent CV is available to download [here](/files/CV.pdf "Slava Jankin CV")
+CV is available to download [here](/files/CV.pdf "Slava Jankin CV")
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Hertie School of Governance, Berlin, Germany: 2019 - 
+  * Data Science Lab, Director
+  * Professor of Data Science and Public Policy
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+* Institute for Analytics and Data Science, University of Essex, United Kingdom: 2017 - 2019
+  * Chief Scientific Adviser to Essex County Council 
+  * Professor of Public Policy and Data Science
+
+* Department of Political Science, School of Public Policy, University College London: 2010 - 2017
+  *  Associate Professor, 2014-2017; Assistant Professor, 2010 - 2014  
+
+* Department of Government, London School of Economics: 2009-2010
+  * Postdoctoral Teaching Fellow, MPA Programme
+
+* Institute for International Integration Studies and Department of Economics, Trinity College Dublin: 2008-2009
+  * Postdoctoral Research Fellow
+
+* Mannheim Centre for European Social Research: 2009
+  * Research Associate
+
+* Trinity College Dublin, Department of Political Science: 2008-2009
+  * Adjunct Lecturer
+
+
+Education
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Department of Political Science, Trinity College Dublin - PhD, 2009.
+
+* J.W. Goethe University, Frankfurt am Main, Germany, Business Administration (Betriebswirtschaftslehre), 2001-2003.
+
+* Department of International Economics, Belarus State Economic University, 1995–2002
+  * Diplom in Economics (Distinction) 
+  * Bachelor in Economics
+
+* Beijing Language and Culture University, People’s Republic of China, Chinese Language, 1997-1999.
+
 
 Publications
 ======
