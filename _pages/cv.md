@@ -13,7 +13,7 @@ CV is available to download [here](/files/CV.pdf "Slava Jankin CV")
 
 Work experience
 ======
-* Hertie School of Governance, Berlin, Germany: 2019- 
+* Hertie School of Governance, Berlin, Germany: 2019-present 
   * Data Science Lab, Director
   * Professor of Data Science and Public Policy
 
@@ -44,13 +44,13 @@ Education
   * PhD, Department of Political Science, 2009
   * Postgraduate Diploma in Statistics (Dip.Stat), Department of Statistics, 2006
 
-* J.W. Goethe University, Frankfurt am Main, Germany, Business Administration (Betriebswirtschaftslehre), 2001-2003.
+* J.W. Goethe University, Frankfurt am Main, Germany, Business Administration (Betriebswirtschaftslehre), 2001-2003
 
 * Department of International Economics, Belarus State Economic University, 1995–2002
   * Diplom in Economics (Distinction) 
   * Bachelor in Economics
 
-* Beijing Language and Culture University, People’s Republic of China, Chinese Language, 1997-1999.
+* Beijing Language and Culture University, People’s Republic of China, Chinese Language, 1997-1999
 
 
 Publications
@@ -73,4 +73,14 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Sponsor of the Catalyst Project and Chair of the Steering Committee, HEFCE (Award #E10) £4m investment University of Essex (as anchor) and Suffolk and Essex County Councils aimed at transformation of public service delivery: risk stratification models for preventative policy-making; impact evaluation of interventions; and community support through student volunteering. Project’s estimated predicted cashable benefit of £27.5m over 10 years in Essex, and £19m in Suffolk. 2017-present.
+
+* Programme committee member: Empirical Methods in Natural Language Processing, 2018; Frontiers and Advances in Data Science, 2017; Data for Policy conference, 2016, 2017; Annual Meeting of the Association for Computational Linguistics, 2017.
+
+* GovTech Knowledge Transfer Consortium, founding member, 2018-present.
+
+* Programme evaluation and quality assurance, World Bank, DFID, DEFRA, DECC, Department of Health, 2016-present.
+
+* Academic advisor to the UK Home Office, 2015-2017.
+
+* Expert Committee member, United Nations Development Program iData Studio, 2017.
