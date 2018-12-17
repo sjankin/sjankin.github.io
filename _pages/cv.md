@@ -73,7 +73,7 @@ Teaching
   
 Service and leadership
 ======
-* Sponsor of the Catalyst Project and Chair of the Steering Committee, HEFCE (Award #E10) £4m investment University of Essex (as anchor) and Suffolk and Essex County Councils aimed at transformation of public service delivery: risk stratification models for preventative policy-making; impact evaluation of interventions; and community support through student volunteering. Project’s estimated predicted cashable benefit of £27.5m over 10 years in Essex, and £19m in Suffolk. 2017-present.
+* University Lead (Project Sponsor) of the Catalyst Project and Chair of the Steering Committee, HEFCE £2.2m award (Award #E10). Collaboration between University of Essex and Suffolk and Essex County Councils aimed at transformation of public service delivery: risk stratification models for preventative policy-making; impact evaluation of interventions; and community support through student volunteering. 2017-present.
 
 * Programme committee member: Empirical Methods in Natural Language Processing, 2018; Frontiers and Advances in Data Science, 2017; Data for Policy conference, 2016, 2017; Annual Meeting of the Association for Computational Linguistics, 2017.
 
