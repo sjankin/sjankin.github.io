@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Slava Jankin Mikhaylov"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Professor of Public Policy and Data Sciene at the University of Essex Institute for Analytics and Data Science"
   location         : "Colchester, UK"
-  employer         : 
+  employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=DUorn6wAAAAJ&hl=en"
   email            :
   uri              :
@@ -109,7 +109,7 @@ author:
   twitter          : "@smych"
   vine             :
   weibo            :
-  xing             : 
+  xing             :
   youtube          :
   wikipedia        :
 
