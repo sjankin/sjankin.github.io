@@ -8,9 +8,6 @@ date: 2019-02-05
 location: "Berlin, Germany"
 ---
 
-Overview
-======
-
 Data Science is an exciting new area that combines scientific inquiry, substantive expertise, programming, and statistical knowledge. One of the main challenges for businesses and policy makers when integrating data science is to find people with the appropriate skills. Data science is no longer only the domain of computer scientists and engineers. Good data science requires experts that combine substantive knowledge with data analytical skills, which makes it a prime area for social scientists with an interest in cutting-edge research. A key technology in data science is machine learning.
 
 The course integrates prior training in statistics and coding with substantive expertise and introduces the fundamental concepts and techniques of machine learning - a field concerned with finding patterns in data. Machine learning is responsible for advances in technology, from product recommendation and personalized medicine to algorithmic government.
