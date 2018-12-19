@@ -18,4 +18,4 @@ The Lancet Countdown’s work builds on decades of research in this field, and w
 
 [Supplementary materials from the Lancet Countdown](http://www.lancetcountdown.org/the-report/)
 
-[GitHub repo for work on Indicators 5.3 & 5.4](https://github.com/sjankin/lancet-countdown)
+[GitHub repo for work on Indicators 5.3 & 5.4](https://github.com/sjankin/lancet)
