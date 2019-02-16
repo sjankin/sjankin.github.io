@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Slava Jankin"
 title_separator          : "-"
 name                     : &name "Slava Jankin"
-description              : &description "CSA to ECC"
+description              : &description "data science at Hertie School"
 url                      : https://sjankin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sjankin.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Slava Jankin Mikhaylov"
   avatar           : "profile.jpg"
-  bio              : "Professor of Public Policy and Data Sciene at the University of Essex <a style='color: black;' href='https://www.essex.ac.uk/centres-and-institutes/institute-for-analytics-and-data-science'>Institute for Analytics and Data Science</a>"
-  location         : "Colchester, UK"
+  bio              : "Professor of Data Sciene and Public Policy at the Hertie School of Governance <a style='color: black;' href='https://www.hertie-school.org'>Hertie School Data Science</a>"
+  location         : "Berlin, Germany"
   employer         :
   googlescholar    : "https://scholar.google.co.uk/citations?user=DUorn6wAAAAJ&hl=en"
   email            :
