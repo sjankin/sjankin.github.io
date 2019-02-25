@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a professor of data science and public policy at the [Hertie School of Governance in Berlin](https://www.hertie-school.org). At the Hertie School I am the director of the Data Lab - a new initiative to advance data science teaching and research at the School, and work with outside organisations to develop data science and artificial intelligence (AI) for public good.
+I am a professor of data science and public policy at the [Hertie School of Governance in Berlin](https://www.hertie-school.org). At the Hertie School I am the director of the [Data Science Lab](https://www.hertie-school.org/en/datasciencelab/) - a new initiative to advance data science teaching and research at the School, and work with outside organisations to develop data science and artificial intelligence (AI) for public good.
 
 I received a PhD in Political Science from [Trinity College Dublin](http://www.tcd.ie/Political_Science/) and a bachelor’s degree in Economics from [Belarus State Economic University](http://bseu.by/belarusian/). I have previously worked at [University of Essex](https://www.essex.ac.uk/iads/), [University College London](http://www.ucl.ac.uk/political-science), and [London School of Economics](http://www.lse.ac.uk/government). My most recent CV is available to download [here](/files/CV.pdf "Slava Jankin CV").
 
