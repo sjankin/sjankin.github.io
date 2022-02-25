@@ -1,8 +1,6 @@
 
 
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -116,6 +114,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+
+
+
+
   /**
    * Mobile nav toggle
    */
@@ -130,6 +132,8 @@ document.addEventListener('DOMContentLoaded', () => {
       this.classList.toggle('bi-x');
     });
   }
+
+
 
   /**
    * Toggle mobile nav dropdowns
@@ -149,6 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
   });
+
+
 
   /**
    * Auto generate the hero carousel indicators
@@ -192,39 +198,39 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Porfolio isotope and filter
    */
-  let portfolionIsotope = document.querySelector('.portfolio-isotope');
+  // let portfolionIsotope = document.querySelector('.portfolio-isotope');
 
-  if (portfolionIsotope) {
+  // if (portfolionIsotope) {
 
-    let portfolioFilter = portfolionIsotope.getAttribute('data-portfolio-filter') ? portfolionIsotope.getAttribute('data-portfolio-filter') : '*';
-    let portfolioLayout = portfolionIsotope.getAttribute('data-portfolio-layout') ? portfolionIsotope.getAttribute('data-portfolio-layout') : 'masonry';
-    let portfolioSort = portfolionIsotope.getAttribute('data-portfolio-sort') ? portfolionIsotope.getAttribute('data-portfolio-sort') : 'original-order';
+  //   let portfolioFilter = portfolionIsotope.getAttribute('data-portfolio-filter') ? portfolionIsotope.getAttribute('data-portfolio-filter') : '*';
+  //   let portfolioLayout = portfolionIsotope.getAttribute('data-portfolio-layout') ? portfolionIsotope.getAttribute('data-portfolio-layout') : 'masonry';
+  //   let portfolioSort = portfolionIsotope.getAttribute('data-portfolio-sort') ? portfolionIsotope.getAttribute('data-portfolio-sort') : 'original-order';
 
-    window.addEventListener('load', () => {
-      let portfolioIsotope = new Isotope(document.querySelector('.portfolio-container'), {
-        itemSelector: '.portfolio-item',
-        layoutMode: portfolioLayout,
-        filter: portfolioFilter,
-        sortBy: portfolioSort
-      });
+  //   window.addEventListener('load', () => {
+  //     let portfolioIsotope = new Isotope(document.querySelector('.portfolio-container'), {
+  //       itemSelector: '.portfolio-item',
+  //       layoutMode: portfolioLayout,
+  //       filter: portfolioFilter,
+  //       sortBy: portfolioSort
+  //     });
 
-      let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
-      menuFilters.forEach(function(el) {
-        el.addEventListener('click', function() {
-          document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
-          this.classList.add('filter-active');
-          portfolioIsotope.arrange({
-            filter: this.getAttribute('data-filter')
-          });
-          if (typeof aos_init === 'function') {
-            aos_init();
-          }
-        }, false);
-      });
+  //     let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
+  //     menuFilters.forEach(function(el) {
+  //       el.addEventListener('click', function() {
+  //         document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
+  //         this.classList.add('filter-active');
+  //         portfolioIsotope.arrange({
+  //           filter: this.getAttribute('data-filter')
+  //         });
+  //         if (typeof aos_init === 'function') {
+  //           aos_init();
+  //         }
+  //       }, false);
+  //     });
 
-    });
+  //   });
 
-  }
+  // }
 
   /**
    * Clients Slider
@@ -310,8 +316,69 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+(function() {
+   "use strict";
+
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
 
 
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
+
+
+    /**
+   * Porfolio isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let portfolioContainer = select('.card-deck');
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+      });
+
+      let portfolioFilters = select('#portfolio-flters li', true);
+
+      on('click', '#portfolio-flters li', function(e) {
+        e.preventDefault();
+        portfolioFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        portfolioIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+})()
 
 // (function() {
 //   "use strict";
