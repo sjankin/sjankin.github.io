@@ -81,9 +81,14 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="assets/CV/slava-jankin-cv.pdf" target="_blank">CV</a></li>
-          <li><a class="nav-link scrollto" href="index.html#cta">Leadership</a></li>
+          <!-- <li><a class="nav-link scrollto" href="index.html#about">About</a></li> -->
+          <li class="dropdown"><a class="nav-link scrollto" href="index.html#about"><span>About</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="assets/CV/slava-jankin-cv.pdf" target="_blank">CV</a></li>
+            </ul>
+
+          <!-- <li><a class="nav-link scrollto" href="assets/CV/slava-jankin-cv.pdf" target="_blank">CV</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#cta">CAIG</a></li>
           <li><a class="nav-link scrollto" href="index.html#research">Research</a></li>
           <li><a class="nav-link scrollto" href="index.html#teaching">Teaching</a></li>
           <li class="dropdown"><a class="nav-link scrollto" href="index.html#team"><span>Team</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -115,10 +120,10 @@
  -->
 
     <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
-      <h2> Machine Learning. Natural Language Processing.</h2>
-      <h2> Public Policy Innovation.</h2>
+      <h2> Natural Language Processing for Policy and Government</h2>
+<!--       <h2> Public Policy Innovation.</h2>
       <h2>Health Implications of Climate Change.</h2>
-
+ -->
 <!--  <h2>"The trajectory of AI isn't fixed - it will be greatly shaped by the choices we make today. It is critical that governments be proactive in aligning these developments with climate action."</h2>
  --><!--  <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer" style="color: #fff"></span>
  -->       
@@ -158,12 +163,19 @@
             <div class="tab-content">
 
               <div class="tab-pane fade show active" id="tab1">
-
+<!-- 
                 <p>I am a professor of data science and public policy at the Hertie School of Governance in Berlin. At the Hertie School I am the director of the Data Science Lab - a new initiative to advance data science teaching and research at the School, and work with outside organisations to develop data science and artificial intelligence (AI) for common good.</p>
 
                 <p>Before joining the Hertie School faculty, I was a professor of public policy and data science at University of Essex, holding a joint appointment in the Institute for Analytics and Data Science and Department of Government. At Essex, I served as the Chief Scientific Adviser to Essex County Council, focusing on artificial intelligence and data science in public services. I also previously worked at University College London and London School of Economics.</p>
 
                 <p>I received a PhD in Political Science from Trinity College Dublin and a bachelor’s degree in Economics from Belarus State Economic University.</p>
+ -->
+                <p>I am a Chair in Data Science and Government at the University of Birmingham. This is a joint professorial appointment between the School of Government and School of Computer Science. My research focuses on Natural Language Processing (NLP) for policy and government. At the University of Birmingham, I am establishing a new Centre for AI and Government (CAIG) as part of a sustained and increasing programme of investment in data science and AI research. Roughly half of my time is seconded to the Institute for Interdisciplinary Data Science and Artificial Intelligence (IIDSAI), where CAIG is also based.</p>
+
+                <p>I was previously a Professor of Data Science and Public Policy at the Hertie School of Governance in Berlin. At the Hertie School I set up the Data Science Lab – a policy school centre of competence focusing on data science teaching and research. Before joining the Hertie School, I was a Professor of Public Policy and Data Science at University of Essex, holding a joint appointment in the Institute for Analytics and Data Science and Department of Government. At Essex, I served as the Chief Scientific Adviser to Essex County Council, focusing on artificial intelligence and data science in public services. I also worked at University College London and London School of Economics.</p>
+
+                <p>I received a PhD in Political Science from Trinity College Dublin. In the subfield of “Robust NLP” I was working on the problem of noisy labels in political text data. In the context of NLP and machine learning, noisy labels refer to inaccuracies or inconsistencies in the dataset's ground truth labels, which are used for training and evaluating models. Addressing the problem of noisy labels is crucial for building reliable and accurate NLP models, especially when dealing with large-scale datasets or user-generated content, where label noise is often unavoidable. </p>
+
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
           <a href="https://twitter.com/smych?lang=en" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -317,6 +329,38 @@
 
         <div class="row g-5">
 
+          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
+            <h3>The Centre for AI in Government</h3>
+            <p>The Centre for Artificial Intelligence in Government (CAIG) is a research centre at the University of Birmingham, situated within the Institute for Interdisciplinary Data Science and Artificial Intelligence (IIDSAI). It’s part of a £5.5mln investment by the University to expand AI and data science in the social sciences. Our primary objective is to connect social sciences and artificial intelligence, fostering collaboration among researchers and supporting the College of Social Sciences (CoSS) in AI-related endeavours. CAIG's mission encompasses research, support, and growth, focusing on internationally recognised research programmes and the cultivation of AI-savvy decision-makers.</p>
+
+            <p>Our research interests centre on AI for Democracy and AI for Health and Climate Change. In the AI for Democracy, we investigate the impact of generative artificial intelligence on democratic processes. The AI for Health and Climate Change initiative aims to develop cutting-edge surveillance tools to monitor health implications of climate hazards and predict health consequences of climate change.
+            </p>
+
+            <p>To support social science faculty, CAIG employs a senior research data scientist and two postdocs to help with the existing and develop new data science and AI research. We also contribute to undergraduate, postgraduate, and executive training programmes, and provide students with opportunities to participate in faculty-led research projects.
+            </p>
+            <!-- <a class="cta-btn align-self-start" href="https://www.hertie-school.org/en/datasciencelab" target="_blank">Learn More</a> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 order-last order-md-first d-flex align-items-center">
+            <div class="img">
+              <img src="assets/img/highlights/CAIG.png" alt="Data Lab" class="img-fluid">
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+
+
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row g-5">
+
           <div class="col-lg-4 col-md-6 order-last order-md-first d-flex align-items-center">
             <div class="img">
               <img src="assets/img/highlights/lab.jpeg" alt="Data Lab" class="img-fluid">
@@ -324,7 +368,7 @@
           </div>
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-first order-md-last">
             <h3>Hertie School Data Science Lab</h3>
-            <p> I am the founding director of the Hertie School Data Science Lab – a trans-institutional initiative in artificial intelligence (AI) and data science (DS) with the mission to foster, advance and promote excellence in research, education, and applications to enable better decision making for the benefit of the individual, industry, government, and society at large. The research programme of the Lab is focusing on the applications of AI and DS methods such as computer vision, natural language processing, experimental survey methods, and causal inference to substantive problems in areas including political behaviour, climate change, decision making, and public policy. Research produced by the Lab has appeared in top scientific journals including The Lancet, PNAS, and Nature, and leading machine learning conferences such as NeurIPS and ICML. A new Master of Data Science for Public Policy has also recently been established through the Lab, with the aim to bring together passionate students, assist their learning and usage of modern data science tools, algorithmic decision-making process and machine learning methodology to tackle some of the most complex challenges of our time.</p>
+            <p>Hertie School is the most important policy school in the EU. I was the founding director of the Hertie School Data Science Lab – a centre of competence in AI and data science. Our mission was to foster, advance and promote a new generation of policy makers comfortable with technical and governance aspects of AI and data science – part of the new Master of Data Science for Public Policy. The research programme of the Lab focused on the applications of AI and data science methods such as computer vision, natural language processing, experimental survey methods, and causal inference to substantive problems in areas including political behaviour, climate change, decision making, and public policy. Research produced by the Lab has appeared in top scientific journals including The Lancet, PNAS, and Nature, and leading machine learning conferences such as NeurIPS, ICML, and IEEE Big Data. </p>
             <a class="cta-btn align-self-start" href="https://www.hertie-school.org/en/datasciencelab" target="_blank">Learn More</a>
           </div>
 
@@ -343,7 +387,7 @@
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
             <h3>Essex Centre for Data Analytics (ECDA)</h3>
             <p>At Essex my work focused on embedding artificial intelligence and data science in public service delivery. As Chief Scientific Adviser to Essex County Council I was the University lead on the Essex Innovates programme. The aims are to make Essex a place that is an exemplar for the integration of data across public bodies; to have the skill, capability and technology to undertake predictive analytics based on high ethical standards; to have a sustainable data infrastructure; and to have the best data science capabilities in the UK to benefit our people and communities. An outcome of the Essex Innovates is the creation of an office for data analytics - ECDA - an institutionalised, long-term collaborative effort to tackle public policy issues in Essex. ECDA will deliver on its aims through a data sharing platform, research and development platform, and an analytical hub pooling the capability across the partnership.</p>
-            <a class="cta-btn align-self-start" href="http://www.essexfuture.org.uk/vision/priority-projects/essex-innovates/" target="_blank">Learn More</a>
+            <a class="cta-btn align-self-start" href="https://www.essexfuture.org.uk/ecda/essex-centre-for-data-analytics/" target="_blank">Learn More</a>
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
@@ -567,7 +611,12 @@ funding including contribution from host institution £3 millions)</li>
     </section><!-- End Features Section -->
 
 
+
     <!-- ======= Research Section ======= -->
+
+
+
+
     <section id="research" class="research">
 
       <div class="container" data-aos="fade-up">
@@ -575,6 +624,12 @@ funding including contribution from host institution £3 millions)</li>
         <div class="section-header">
           <h2>Research</h2>
           <p>Selected publications from 2018 to present. Full publication listing can be found on <a href="assets/CV/slava-jankin-cv.pdf" target="_blank">my CV</a></p>
+<!--           <p>My research primarily focuses on natural language processing (NLP) for policy and government applications. I explore the unique requirements and constraints of NLP in this domain, such as stakeholder involvement, data restrictions, decision-making focus, and political risks. I address two key questions in my work:
+            <li>
+              <ul>How to make NLP models robust to domain-specific constraints?</ul>
+              <ul>How to ensure their robustness upon deployment in government settings?<</ul>
+            </li>
+          </p> -->
         </div>
 
 <!--         Toggle buttons
@@ -875,90 +930,15 @@ of international conflict</h3><p>Advances in community detection reveal new insi
             </div>
           </div>
 
+
+
+
         </div>
 
       </div>
 
     </section><!-- End Research Section -->
 
-
-
-    <!-- ======= Policy Brief Section ======= -->
-    <section id="brief" class="brief">
-      <div class="container-fluid" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-
-            <div class="content px-xl-5">
-              <h3>Policy Briefs</h3>
-            </div>
-
-            <div class="accordion accordion-flush px-xl-5" id="faqlist">
-
-              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                    <i class="bi bi-newspaper"></i>&nbsp;&nbsp;
-                      <p>Data science and AI in government: Why public sector organisations need in-house data science and artificial intelligence expertise.</p>
-                  </button>
-                </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    <p><em>Published by the <a href="https://www.hertie-school.org/en/centre-for-digital-governance" target="_blank">Centre for Digital Governance</a> and the <a href="https://www.hertie-school.org/en/datasciencelab" target="_blank">Data Science Lab</a></em></p>
-                    <p>An essential part of the digital transformation in the public sector is the application
-of data science and artificial intelligence. These technologies will enable the public
-sector to become more efficient, responsive, prescient, sustainable as well as fairer
-by, for example, helping to detect and predict important trends, simulating and
-evaluating policy alternatives, and personalising or automating the
-implementation of policies. Yet governments are reticent about using these
-applications, in no small part because they lack in-house data science and AI
-capacities. To overcome their dependence on outside expertise and build up their
-own data science and AI capacities, governments are advised to:</p>
-
-                    <ul>
-                      <li>Adapt recruitment practices and improve job attractivity for experts. </li>
-                      <li>Build communities of practice and centres of excellence.</li>
-                      <li>Collaborate with external experts and research institutions. </li>
-                      <li>Strengthen interdisciplinary and intersectoral networks. </li>
-                      <li>Hold government-sponsored competitions and hackathons. </li>
-                      <li>Centralise capacities but continue to expand the base.</li>
-                    </ul> 
-              <a href="https://www.hertie-school.org/en/news/detail/content/policy-brief-data-science-and-ai-in-government"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-
-                  </div>
-                </div>
-              </div><!-- # Brief item-->
-
-<!--               <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                    <i class="bi bi-newspaper"></i>&nbsp;&nbsp;
-                      <p>Artificial Intelligence and Climate Change: Opportunities, considerations, and policy levers to align AI with climate change goals.</p>
-                  </button>
-                </h3>
-                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    <p><em>Published by Heinrich Böll Stiftung Brussels</em></p>
-                    <p>With the increasing deployment of artificial intelligence (AI) technologies across society, it is important to understand in which ways AI may accelerate or impede climate progress, and how various stakeholders can guide those developments. On the one hand, AI can facilitate climate change mitigation and adaptation strategies within a variety of sectors, such as energy, manufacturing, agriculture, forestry, and disaster management. On the other hand, AI can also contribute to rising greenhouse gas emissions through applications that benefit high-emitting sectors or drive increases in consumer demand, as well as via energy use associated with AI itself. Here, we provide a brief overview of AI’s multi-faceted relationship with climate change, and recommend policy levers to align the use of AI with climate change mitigation and adaptation pathways.</p><a href="https://eu.boell.org/en/2020/12/03/artificial-intelligence-and-climate-change" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-                  </div>
-                </div>
-              </div> -->
-              <!-- # Brief item-->
-
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/hero/reichstag-2.jpeg");'>&nbsp;</div>
-        </div>
-
-      </div>
-    </section><!-- End Policy Brief Section -->
 
 
     <!-- ======= Teaching Section ======= -->
@@ -1235,6 +1215,75 @@ own data science and AI capacities, governments are advised to:</p>
 
 
 
+    <!-- ======= Policy Brief Section ======= -->
+    <section id="brief" class="brief">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content px-xl-5">
+              <h3>Resources</h3>
+            </div>
+
+            <div class="accordion accordion-flush px-xl-5" id="faqlist">
+
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <i class="bi bi-newspaper"></i>&nbsp;&nbsp;
+                      <p>United Nations General Debate Corpus.</p>
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <!-- <p><em>Published by the <a href="https://www.hertie-school.org/en/centre-for-digital-governance" target="_blank">Centre for Digital Governance</a> and the <a href="https://www.hertie-school.org/en/datasciencelab" target="_blank">Data Science Lab</a></em></p> -->
+                    <p>
+                    Every year since 1946, representatives of the UN member states gather at the annual sessions of the United Nations General Assembly. The centrepiece of each session is the General Debate. This is a forum at which leaders and other senior officials deliver statements that present their government’s perspective on the major issues in world politics. These statements are akin to the annual legislative state-of-the-union addresses in domestic politics. This new dataset, the UN General Debate Corpus (UNGDC), introduces the corpus of texts of General Debate statements from 1970 (Session 25) to 2020 (Session 75). Additional information is available from the project GitHub repo <a href="https://github.com/sjankin/UnitedNations" target="_blank">here</a></p>
+
+              <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0TJX8Y" target="_blank"><span>Explore the dataset</span><i class="bi bi-arrow-right"></i></a>
+
+
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <i class="bi bi-newspaper"></i>&nbsp;&nbsp;
+                      <p>Publication replication materials</p>
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <p>All materials and data for replication of my research and work can be found on the Harvard Dataverse repository below</p>
+
+              <a href="https://dataverse.harvard.edu/dataverse/Jankin"><span>Explore publication replication materials</span><i class="bi bi-arrow-right"></i></a>
+
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/hero/reichstag-2.jpeg");'>&nbsp;</div>
+        </div>
+
+      </div>
+    </section><!-- End Policy Brief Section -->
+
+
+
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -1259,19 +1308,21 @@ own data science and AI capacities, governments are advised to:</p>
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
-                  <p>Hertie School Data Science Lab</p>
-                  <p>Friedrichstraße 180, 10117 Berlin</p>
+                  <p>University of Birmingham</p>
+                  <p>Edgbaston, Birmingham, B15 2TT, UK</p>
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex">
+<!--               <div class="info-item d-flex">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
                   <p>Faculty assistant:</p>
                   <p>karras@hertie-school.org</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
+ -->
+              <!-- End Info Item -->
 
             </div>
 
@@ -1279,7 +1330,7 @@ own data science and AI capacities, governments are advised to:</p>
 
 
           <div class="col-lg-7">
-            <img src="assets/img/hertie.jpeg" class="media-img">
+            <img src="assets/img/uob.png" class="media-img">
           </div>
 
 <!--           <div class="col-lg-8">

@@ -772,7 +772,7 @@ section {
 /*  background: url("../img/hero/reichstag-4.jpeg") center center;
 *//*  filter: brightness(80%);
 */  background-size: cover;
-background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url(../img/hero/reichstag-4.jpeg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url(../img/hero/big-ben.avif);
   position: relative;
   padding: 120px 0 60px;
   animation:  change 10% infinite ease-in-out;
