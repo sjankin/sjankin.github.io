@@ -1708,6 +1708,85 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
   color: var(--color-white);
 }
 
+
+/*--------------------------------------------------------------
+# Publication Section
+--------------------------------------------------------------*/
+
+/*.about .social-links {
+  margin: 0 10px 10px 0;
+}
+.about .social-links a {
+  color: rgba(var(--color-secondary-rgb), 0.5);
+  margin-right: 5px;
+}*/
+
+
+.publication h3 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .about h3 {
+    font-size: 28px;
+  }
+}
+.publication .nav-pills {
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+}
+.publication .nav-pills li + li {
+  margin-left: 40px;
+}
+.publication .nav-link {
+  background: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-secondary);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+  font-family: var(--font-secondary);
+}
+.publication .nav-link.active {
+  color: var(--color-primary);
+  background: none;
+  border-bottom: 3px solid var(--color-primary);
+}
+@media (max-width: 575px) {
+  .publication .nav-link {
+    font-size: 16px;
+  }
+}
+.publication .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.publication .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color: var(--color-primary);
+}
+
+.publication .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+.publication .readmore i {
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
 /*--------------------------------------------------------------
 # Policy Brief Section
 --------------------------------------------------------------*/
