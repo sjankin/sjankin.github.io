@@ -1018,6 +1018,31 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
 # About Section
 --------------------------------------------------------------*/
 
+
+.title-container {
+    text-align: center; /* Aligns the text in the center */
+    line-height: 1.6;  /* Adjusts space between lines */
+    padding: 20px;     /* Adds some padding for spacing */
+}
+
+.title-container h1 {
+    margin: 0;         /* Removes default margin from the heading */
+    font-size: 2.5em;  /* Adjusts the font size */
+    font-weight: bold; /* Makes the heading bold */
+}
+
+.title-container p {
+    margin: 5px 0;     /* Adds some vertical spacing between paragraphs */
+    font-size: 1.2em;  /* Adjusts the font size for paragraphs */
+}
+
+
+
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+
 /*.about .social-links {
   margin: 0 10px 10px 0;
 }
@@ -1208,6 +1233,10 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
   z-index: 3;
   border-radius: 15px;
 }
+
+
+
+
 
 
 
@@ -2289,6 +2318,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
 max-height:100%;
 
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
