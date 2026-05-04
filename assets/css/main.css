@@ -1173,8 +1173,10 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
 }
 .cta .content h3 {
   color: var(--color-secondary);
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 10px;
 }
 .cta .content h3 em {
   font-style: normal;
@@ -1192,8 +1194,8 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
 }
 .cta .content p {
   color: var(--color-secondary);
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
 }
 .cta .content .cta-btn {
   color: var(--color-white);
