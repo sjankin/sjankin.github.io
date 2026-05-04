@@ -794,7 +794,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.1)) , url
   text-align: center;
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
   z-index: 977;
   font-family: var(--font-secondary);
@@ -3047,4 +3047,10 @@ max-height:100%;
 .footer .footer-legal .social-links a:hover {
   background: var(--color-primary);
   text-decoration: none;
+}
+
+/* Impact section: white background to visually separate from Research grey box */
+#impact.cta .container {
+  background: transparent;
+  padding: 0;
 }
