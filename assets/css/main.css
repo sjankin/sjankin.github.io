@@ -243,6 +243,10 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
+.mobile-nav-toggle {
+  display: none;
+}
+
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
